@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "leetcode-python"
+version = "0.1.0"
+description = "Python leetcode excercise"
+authors = ["sumoduduk"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
