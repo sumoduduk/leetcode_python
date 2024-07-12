@@ -29,6 +29,11 @@
           (mkPoetryEnv {projectDir = self;})
           poetry
         ];
+        shellHook = ''
+          echo "Nix shell enter.."
+          alias cls="clear"
+          alias test="pytest src/* -vvs"
+        '';
       };
     });
   };
