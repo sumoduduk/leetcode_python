@@ -18,7 +18,7 @@ class Solution:
             if len(word) == 0:
                 tuples_char = [("a", 0)]
                 break
-            elif len(word) == 1 and !(word in char_1):
+            elif len(word) == 1 and word not in char_1:
                 tuples_char = [("a", 0)]
                 break
             for i, char in enumerate(word):

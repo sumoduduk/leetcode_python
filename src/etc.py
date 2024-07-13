@@ -7,18 +7,18 @@ def pop_middle(x: List[int]) -> List[int]:
         x.pop(xLen // 2)
 
     new_len = len(x)
-    print(f"new len is {new_len}")
+    # print(f"new len is {new_len}")
     return x
 
 
 def transform_list(x: List[int]) -> List[int]:
-    print(f" list old is {x}")
+    # print(f" list old is {x}")
 
     for i in range(len(x)):
         last = x.pop()
         x.insert(i, last)
 
-    print(f" list new is {x}")
+    # print(f" list new is {x}")
     return x
 
 

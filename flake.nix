@@ -32,7 +32,7 @@
         shellHook = ''
           echo "Nix shell enter.."
           alias cls="clear"
-          alias test="pytest src/* -vvs"
+          alias testpy="pytest src/* -vvs"
         '';
       };
     });
